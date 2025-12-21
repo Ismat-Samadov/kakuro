@@ -69,6 +69,10 @@ export default function Home() {
     setCurrentPuzzleIndex((prev) => (prev - 1 + puzzles.length) % puzzles.length);
   };
 
+  const handleSelectedCellChange = (row: number, col: number) => {
+    setSelectedCell({ row, col });
+  };
+
   const getDifficultyColor = (difficulty: string) => {
     switch (difficulty) {
       case 'easy':
@@ -129,7 +133,7 @@ export default function Home() {
               selectedCell={selectedCell}
               onCellClick={handleCellClick}
               onCellChange={handleCellChange}
-              onSelectedCellChange={setSelectedCell}
+              onSelectedCellChange={handleSelectedCellChange}
             />
           </div>
         </div>
