@@ -1,0 +1,76 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="180" height="180" rx="40" fill="url(#gradient)"/>
+
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mini Kakuro Grid -->
+  <g transform="translate(30, 30)">
+    <!-- Row 1 -->
+    <!-- Empty cell -->
+    <rect width="30" height="30" fill="#1F2937"/>
+
+    <!-- Clue cell -->
+    <rect x="35" width="30" height="30" fill="#1F2937" stroke="#6B7280" stroke-width="2"/>
+    <line x1="35" y1="0" x2="65" y2="30" stroke="#9CA3AF" stroke-width="1.5"/>
+    <text x="58" y="14" font-family="Arial, sans-serif" font-size="11" fill="#E5E7EB" font-weight="600">12</text>
+
+    <!-- Clue cell -->
+    <rect x="70" width="30" height="30" fill="#1F2937" stroke="#6B7280" stroke-width="2"/>
+    <line x1="70" y1="0" x2="100" y2="30" stroke="#9CA3AF" stroke-width="1.5"/>
+    <text x="93" y="14" font-family="Arial, sans-serif" font-size="11" fill="#E5E7EB" font-weight="600">6</text>
+
+    <!-- Empty cell -->
+    <rect x="105" width="30" height="30" fill="#1F2937"/>
+
+    <!-- Row 2 -->
+    <!-- Clue cell -->
+    <rect y="35" width="30" height="30" fill="#1F2937" stroke="#6B7280" stroke-width="2"/>
+    <line x1="0" y1="35" x2="30" y2="65" stroke="#9CA3AF" stroke-width="1.5"/>
+    <text x="7" y="61" font-family="Arial, sans-serif" font-size="11" fill="#E5E7EB" font-weight="600">7</text>
+
+    <!-- Playable cells -->
+    <rect x="35" y="35" width="30" height="30" fill="#FFFFFF" stroke="#4B5563" stroke-width="2"/>
+    <text x="50" y="57" font-family="Arial, sans-serif" font-size="20" fill="#1F2937" font-weight="bold" text-anchor="middle">8</text>
+
+    <rect x="70" y="35" width="30" height="30" fill="#FFFFFF" stroke="#4B5563" stroke-width="2"/>
+    <text x="85" y="57" font-family="Arial, sans-serif" font-size="20" fill="#1F2937" font-weight="bold" text-anchor="middle">4</text>
+
+    <!-- Empty cell -->
+    <rect x="105" y="35" width="30" height="30" fill="#1F2937"/>
+
+    <!-- Row 3 -->
+    <!-- Clue cell -->
+    <rect y="70" width="30" height="30" fill="#1F2937" stroke="#6B7280" stroke-width="2"/>
+    <line x1="0" y1="70" x2="30" y2="100" stroke="#9CA3AF" stroke-width="1.5"/>
+    <text x="7" y="96" font-family="Arial, sans-serif" font-size="11" fill="#E5E7EB" font-weight="600">9</text>
+
+    <!-- Playable cells -->
+    <rect x="35" y="70" width="30" height="30" fill="#FFFFFF" stroke="#4B5563" stroke-width="2"/>
+    <text x="50" y="92" font-family="Arial, sans-serif" font-size="20" fill="#1F2937" font-weight="bold" text-anchor="middle">4</text>
+
+    <rect x="70" y="70" width="30" height="30" fill="#FFFFFF" stroke="#4B5563" stroke-width="2"/>
+    <text x="85" y="92" font-family="Arial, sans-serif" font-size="20" fill="#1F2937" font-weight="bold" text-anchor="middle">2</text>
+
+    <rect x="105" y="70" width="30" height="30" fill="#FFFFFF" stroke="#4B5563" stroke-width="2"/>
+    <text x="120" y="92" font-family="Arial, sans-serif" font-size="20" fill="#1F2937" font-weight="bold" text-anchor="middle">3</text>
+
+    <!-- Row 4 -->
+    <!-- Empty cells -->
+    <rect y="105" width="30" height="30" fill="#1F2937"/>
+    <rect x="35" y="105" width="30" height="30" fill="#1F2937"/>
+
+    <!-- Playable cells -->
+    <rect x="70" y="105" width="30" height="30" fill="#FFFFFF" stroke="#4B5563" stroke-width="2"/>
+    <text x="85" y="127" font-family="Arial, sans-serif" font-size="20" fill="#1F2937" font-weight="bold" text-anchor="middle">3</text>
+
+    <!-- Empty cell -->
+    <rect x="105" y="105" width="30" height="30" fill="#1F2937"/>
+  </g>
+</svg>
